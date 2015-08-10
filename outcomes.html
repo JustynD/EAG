@@ -15,9 +15,11 @@
 			text-align: center;
 		}
 		div.iceimg{
-			position: absolute;
-			top: 150px;
-			left: 94px;
+			display: inline-block;
+			margin-top: 29px;
+			margin-left: 94px;
+			padding-right: 52px;
+			
 		}
 		div.icep{
 			border-radius: 6px;
@@ -25,15 +27,15 @@
 			color: white;
 			padding: 15px;
 			width: 550px;
-			position: absolute;
-			top: 150px;
-			left: 700px;
+			display: inline-block;
+
 			
 		}
 		div.decimg{
-			position: absolute;
-			top: 525px;
-			left: 700px;
+			display: inline-block;
+			padding-left: 52px;
+			margin-top: 58px;
+			
 		}
 		div.decp{
 			border-radius: 6px;
@@ -41,29 +43,32 @@
 			color: white;
 			padding: 15px;
 			width: 550px;
-			position: absolute;
-			top: 525px;
-			left: 94px;
+			display: inline-block;
+			margin-left: 94px;
+			padding-right: 50px;
+			
 		}
 		div.seaimg{
-			position: absolute;
-			top: 900px;
-			left: 94px;
+			display: inline-block;
+			margin-top: 58px;
+			margin-left: 94px;
+			padding-right: 50px;
 		}
+			
 		div.seap{
 			border-radius: 6px;
 			background: rgba(0,0,0,0.5);
 			color: white;
 			padding: 15px;
 			width: 550px;
-			position: absolute;
-			top: 900px;
-			left: 700px;
+			display: inline-block;
+
+		
 		}
 		div.migimg{
-			position: absolute;
-			top: 1275px;
-			left: 700px;
+			display: inline-block;
+			padding-left: 52px;
+			margin-top: 58px;
 		}
 		div.migp{
 			border-radius: 6px;
@@ -71,14 +76,15 @@
 			color: white;
 			padding: 15px;
 			width: 550px;
-			position: absolute;
-			top: 1275px;
-			left: 94px;
+			display: inline-block;
+			margin-left: 94px;
+			padding-right: 50px;
 		}
 		div.preimg{
-			position: absolute;
-			top: 1650px;
-			left: 94px;
+			display: inline-block;
+			margin-top: 58px;
+			margin-left: 94px;
+			padding-right: 50px;
 		}
 		div.prep{
 			border-radius: 6px;
@@ -86,25 +92,71 @@
 			color: white;
 			padding: 15px;
 			width: 550px;
-			position: absolute;
-			top: 1650px;
-			left: 700px;
+			display: inline-block;
 		}
-		@media (max-width: 768px) {
+		@media (max-width: 450px) {
 			img {
 				width: 350px;
 				height: 190px;
 			}
 			div.iceimg{
-			margin-left: auto;
-			margin-right: auto;
+				margin-left: 40px;
 			}
 			div.icep{
 				width: 350px;
-				height: 190px;
-				margin-left: auto;
-				margin-right: auto;
-				position: relative;
+				margin-left: 40px;	
+				margin-top: 25px;	
+		}
+			div.decimg{
+				width: 350px;
+				position: absolute;
+				top: 550px;
+				left: -10px;
+			
+		}
+			div.decp{
+				width: 350px;
+				position: absolute;
+				top: 825px;
+				left: -52px;
+			
+		}
+			div.seaimg{
+				width: 350px;
+				margin-left: 40px;
+				margin-top: 425px;
+		}
+			
+			div.seap{
+				width: 350px;
+				margin-top: 25px;
+				margin-left: 40px;
+
+		
+		}
+			div.migimg{
+				width: 350px;
+				position: absolute;
+				top: 1325px;
+				left: -12px;
+		}
+			div.migp{
+				width: 350px;
+				position: absolute;
+				top: 1600px;
+				left: -55px;
+		}
+			div.preimg{
+				width: 350px;
+				margin-top: 450px;
+				margin-left: 40px;
+		}
+			div.prep{
+				width: 350px;
+				margin-top: 25px;
+				margin-left: 40px;
+		}
+	}
 	</style>
 <body>
 	<nav class="navbar navbar-default">
@@ -153,13 +205,14 @@
   </div>
 
   <!-- Decline of Species -->
-  <div class="decimg">
-  <img src="https://www.orderstart.com/item_images/4324/25009_1_default.jpg" width="550" height="310" class="img-rounded">
-  </div>
   <div class="decp">
   <h2>Decline of Species</h2>
   <p>sdasdsdsasdsadsadsa</p>
   </div>
+  <div class="decimg">
+  <img src="https://www.orderstart.com/item_images/4324/25009_1_default.jpg" width="550" height="310" class="img-rounded">
+  </div>
+  
 
   <!-- Sea level rise -->
   <div class="seaimg">
@@ -171,21 +224,18 @@
   </div>
 
   <!-- Species Migration -->
-  <div class="migimg">
-  <img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg" width="550" height="310" class="img-rounded">
-  </div>
   <div class="migp">
   <h2>Species Migration</h2>
   <p>sdasdsdsasdsadsadsa</p>
   </div>
+  <div class="migimg">
+  <img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg" width="550" height="310" class="img-rounded">
+  </div>
+  
 
   <!-- Precipitation -->
   <div class="preimg">
   <img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/4/11/1397210130748/Spring-Lamb.-Image-shot-2-011.jpg" width="550" height="310" class="img-rounded">
-  <br>
-  <br>
-  <br>
-  <br>
   </div>
   <div class="prep">
   <h2>Precipitation</h2>
